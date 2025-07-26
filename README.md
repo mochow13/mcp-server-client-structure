@@ -198,7 +198,6 @@ The client can be extended to:
 ├── client/
 │   ├── index.ts          # MCP client with Gemini AI
 │   └── package.json
-├── .env                  # Environment variables
 └── README.md
 ```
 
@@ -221,7 +220,7 @@ The client can be extended to:
 ## Troubleshooting
 
 1. **Connection Issues**: Ensure the server is running before starting the client
-2. **API Key Errors**: Verify your Gemini API key is correctly set in `.env`
+2. **API Key Errors**: Verify your Gemini API key is correctly set in `process.env` or `.env` file
 3. **Port Conflicts**: The server uses port 3000 by default - ensure it's available
 4. **Tool Errors**: Check server logs for tool execution issues
 
